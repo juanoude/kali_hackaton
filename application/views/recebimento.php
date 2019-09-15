@@ -15,8 +15,11 @@
     	theme: "light2", // "light1", "light2", "dark1", "dark2"
     	animationEnabled: true,
     	zoomEnabled: true,
+      axisY:{
+         maximum: 100,
+      },
     	title: {
-    		text: "Distância"
+    		text: "Porcentagem do Acumulo de Lixo"
     	},
     	data: [{
     		type: "area",
@@ -38,7 +41,7 @@
   <div class="container">
     <div id="chartContainer" style="height: 370px; width: 100%;"></div>
 
-</div>
+  </div>
 
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>

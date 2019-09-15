@@ -88,16 +88,23 @@ class Recebimento extends CI_Controller {
 				if(strlen($pacote->payload) < 4) {
 					array_push($data,
 						array("x" => $i,
-									"y" => $pacote->payload
+									"y" => ($this->calculaPercentual($pacote->payload))
 								)
 						);
 						$i++;
 				}
 			}
 
-				print_r($pacote->dev_data_created_at);
-				print_r($pacote->payload);
 
 				return $data;
+		}
+
+		public function calculaPercentual($distancia){
+			if ($distancia > 50) {
+				return 0;
+			}
+			$porcentagem = ((50 - $distancia) /50)*100;
+			// print_r($porcentagem);
+			return $porcentagem;
 		}
 	}
