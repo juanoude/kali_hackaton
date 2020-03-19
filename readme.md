@@ -9,7 +9,7 @@ que envolvessem equipamentos de baixo nível e melhora na experiência do cidadão.
 grandes problemas urbanos como transporte, coleta de lixo, integração comércio-consumidor, etc... Ao final do evento,
 foi necessário fazer um pitch da solução e a demonstração de um MVP, protótipo mínimo viável.
 
-![Certificado Nestin](/images/cert-hack.jpg)
+![Certificado Nestin](/images/cert-hackathon.jpg)
 
 A maioria dos grupos eram pré-formados, equilibrados e com a ideia sólida, debatida e completamente pronta,
 bastava executar. Os grupos que foram formados na hora, eram pessoas iniciantes que pretendiam conhecer um hackathon que
